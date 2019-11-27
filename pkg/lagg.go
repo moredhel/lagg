@@ -49,7 +49,7 @@ func NewStream(out *os.File, windowSize int, maxSize int, refreshInterval time.D
 		counter:         0,
 		maxSize:         maxSize,
 		WindowSize:      windowSize,
-		Lines:           sortedmap.New(2*maxSize, asc.Int),
+		Lines:           sortedmap.New(maxSize, asc.Int),
 		RefreshInterval: refreshInterval,
 
 		tdone: make(chan bool),

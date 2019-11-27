@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/mkideal/cli"
-	"github.com/moredhel/lagg/lagg"
+	lagg "github.com/moredhel/lagg/pkg"
 
 )
 
